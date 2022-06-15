@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="admin.LobbyUserController">
+	<children>
+		<ImageView fitHeight="150.0" fitWidth="50.0" layoutX="545.0" layoutY="352.0" pickOnBounds="true" preserveRatio="true">
+			<image>
+				<Image url="@../image/Chess_Icon_cut.png" />
+			</image>
+		</ImageView>
+		<VBox layoutX="14.0" layoutY="14.0" prefHeight="341.0" prefWidth="100.0" spacing="4.0">
+			<children>
+				<Button fx:id="toUserButton" mnemonicParsing="false" onAction="#toUser" prefHeight="45.0" prefWidth="100.0" text="회원관리">
+					<font>
+						<Font name="System Bold" size="12.0" />
+					</font>
+				</Button>
+				<Button fx:id="toGameButton" mnemonicParsing="false" onAction="#toGame" prefHeight="45.0" prefWidth="100.0" text="게임관리">
+					<font>
+						<Font name="System Bold" size="12.0" />
+					</font>
+				</Button>
+				<Button fx:id="toServerButton" mnemonicParsing="false" onAction="#toServer" prefHeight="45.0" prefWidth="100.0" text="서버관리">
+					<font>
+						<Font name="System Bold" size="12.0" />
+					</font>
+				</Button>
+				<Button fx:id="toChatButton" mnemonicParsing="false" onAction="#toChat" prefHeight="45.0" prefWidth="100.0" text="채팅관리">
+					<font>
+						<Font name="System Bold" size="12.0" />
+					</font>
+				</Button>
+				<Button fx:id="toRankButton" mnemonicParsing="false" onAction="#toRank" prefHeight="45.0" prefWidth="100.0" text="랭킹/통계">
+					<font>
+						<Font name="System Bold" size="12.0" />
+					</font>
+				</Button>
+				<Button fx:id="toAdminButton" mnemonicParsing="false" onAction="#toAdmin" prefHeight="45.0" prefWidth="100.0" text="관리자관리">
+					<font>
+						<Font name="System Bold" size="12.0" />
+					</font>
+				</Button>
+			</children>
+		</VBox>
+		<Button fx:id="logoutButton" alignment="CENTER" layoutX="14.0" layoutY="364.0" mnemonicParsing="false" onAction="#switchtoLogin" prefHeight="22.0" prefWidth="99.0" text="로그아웃" />
+		<AnchorPane layoutX="126.0" layoutY="14.0" prefHeight="330.0" prefWidth="460.0" style="-fx-background-color: #ffffff; -fx-background-radius: 10; -fx-border-color: #5c5c5c; -fx-border-radius: 10;">
+			<children>
+				<Label layoutX="12.0" layoutY="11.0" prefHeight="18.0" prefWidth="108.0" text="《회원관리》">
+					<font>
+						<Font size="14.0" />
+					</font>
+				</Label>
+				<TableView fx:id="userTableView" layoutX="6.0" layoutY="40.0" prefHeight="242.0" prefWidth="444.0" style="-fx-font-size: 9;">
+					<columns>
+						<TableColumn fx:id="idseqCol" editable="false" prefWidth="28.0" style="-fx-font-size: 10; -fx-alignment: CENTER;" text="IDX" />
+						<TableColumn fx:id="idCol" editable="false" prefWidth="62.4" style="-fx-font-size: 10; -fx-alignment: CENTER;" text="ID" />
+						<TableColumn fx:id="nickCol" editable="false" prefWidth="69.6" style="-fx-font-size: 10; -fx-alignment: CENTER;" text="NICK" />
+						<TableColumn fx:id="genderCol" editable="false" prefWidth="52.8" style="-fx-font-size: 10; -fx-alignment: CENTER;" text="GEN" />
+						<TableColumn fx:id="ageCol" editable="false" minWidth="0.8" prefWidth="2.4" style="-fx-font-size: 10; -fx-alignment: CENTER;" text="AGE" />
+						<TableColumn fx:id="winCol" editable="false" prefWidth="40.0" style="-fx-font-size: 10; -fx-alignment: CENTER;" text="WIN" />
+						<TableColumn fx:id="loseCol" editable="false" prefWidth="40.0" style="-fx-font-size: 10; -fx-alignment: CENTER;" text="LOSE" />
+						<TableColumn fx:id="rateCol" editable="false" prefWidth="48.0" style="-fx-font-size: 10; -fx-alignment: CENTER;" text="RATE" />
+						<TableColumn fx:id="joinCol" editable="false" prefWidth="70.0" style="-fx-font-size: 11; -fx-alignment: CENTER;" text="JOIN" />
+						<TableColumn fx:id="banCol" editable="false" prefWidth="25.5999755859375" style="-fx-font-size: 10; -fx-alignment: CENTER;" text="BAN" />
+					</columns>
+				</TableView>
+            <HBox layoutX="6.0" layoutY="292.0" prefHeight="24.0" prefWidth="444.0" spacing="4.0">
+               <children>
+      				<ChoiceBox fx:id="searchChoice" prefHeight="22.0" prefWidth="56.0" style="-fx-font-size: 10; -fx-alignment: CENTER;" value="아이디" />
+      				<TextField fx:id="searchField" prefHeight="22.0" prefWidth="70.0" />
+      				<Button fx:id="searchButton" mnemonicParsing="false" onAction="#search" prefHeight="22.0" prefWidth="44.0" text="조회" />
+      				<Button fx:id="showButton" mnemonicParsing="false" onAction="#showAll" prefHeight="22.0" prefWidth="70.0" text="전체조회" />
+      				<Button fx:id="detailButton" mnemonicParsing="false" onAction="#showDetail" prefHeight="22.0" prefWidth="70.0" style="-fx-font-size: 10; -fx-alignment: CENTER;" text="회원상세" />
+      				<Button fx:id="saveButton" mnemonicParsing="false" onAction="#saveUser" prefHeight="22.0" prefWidth="50.0" style="-fx-font-size: 10; -fx-alignment: CENTER;" text="저장" />
+      				<Button fx:id="deleteButton" mnemonicParsing="false" onAction="#deleteUser" opacity="0.5" prefHeight="22.0" prefWidth="60.0" style="-fx-font-size: 10; -fx-alignment: CENTER;" text="강제탈퇴" />
+               </children>
+            </HBox>
+			</children>
+		</AnchorPane>
+	</children>
+</AnchorPane>

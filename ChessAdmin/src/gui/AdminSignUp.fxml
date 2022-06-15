@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="320.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="admin.AdminSignUpController">
+   <children>
+      <Label alignment="CENTER" layoutY="50.0" prefHeight="62.0" prefWidth="320.0" text="관리자 등록">
+         <font>
+            <Font name="System Bold" size="23.0" />
+         </font>
+      </Label>
+      <TextField fx:id="signId" layoutX="79.0" layoutY="136.0" onAction="#checkID" prefHeight="22.0" prefWidth="100.0" promptText="아이디" />
+      <Button fx:id="idCheckButton" layoutX="185.0" layoutY="136.0" mnemonicParsing="false" onAction="#checkID" prefHeight="22.0" prefWidth="55.0" text="중복확인">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Button>
+      <PasswordField fx:id="signPw" layoutX="79.0" layoutY="180.0" promptText="비밀번호" />
+      <PasswordField fx:id="checkPw" layoutX="79.0" layoutY="213.0" onAction="#signUp" promptText="비밀번호 확인" />
+      <Button fx:id="signButton" layoutX="78.0" layoutY="283.0" mnemonicParsing="false" onAction="#signUp" prefHeight="22.0" prefWidth="45.0" text="등록">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Button>
+      <Button fx:id="iniButton" layoutX="136.0" layoutY="283.0" mnemonicParsing="false" onAction="#clearAll" prefHeight="22.0" prefWidth="45.0" text="초기화">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Button>
+      <Button fx:id="backButton" layoutX="194.0" layoutY="283.0" mnemonicParsing="false" onAction="#switchtoMain" prefHeight="22.0" prefWidth="45.0" text="뒤로">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Button>
+      <Label fx:id="idLabel" layoutX="79.0" layoutY="162.0" prefHeight="14.0" prefWidth="162.0" textFill="#3900ff">
+         <font>
+            <Font size="10.0" />
+         </font></Label>
+      <Label fx:id="pwLabel" layoutX="79.0" layoutY="265.0" prefHeight="14.0" prefWidth="162.0" textFill="RED">
+         <font>
+            <Font size="10.0" />
+         </font></Label>
+      <Label fx:id="completeLabel" alignment="CENTER" layoutX="93.0" layoutY="313.0" prefHeight="22.0" prefWidth="131.0" />
+   </children>
+</AnchorPane>

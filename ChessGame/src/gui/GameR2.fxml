@@ -1,0 +1,763 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: AZURE;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Game22Controller">
+   <children>
+      <AnchorPane layoutX="12.0" layoutY="12.0" prefHeight="376.0" prefWidth="376.0" style="-fx-background-color: #134b70;">
+         <children>
+            <VBox layoutX="12.0" layoutY="3.0" prefHeight="362.0" prefWidth="362.0" spacing="2.0" style="-fx-background-color: #09293d;">
+               <children>
+                  <HBox prefHeight="43.0" prefWidth="372.0" spacing="2.0">
+                     <children>
+                        <StackPane prefHeight="43.0" prefWidth="43.0">
+                           <children>
+                              <Button fx:id="A8" mnemonicParsing="false" onAction="#btA8" prefHeight="43.0" prefWidth="43.0" style="-fx-background-color: #d8e5f0;" />
+                           </children>
+                        </StackPane>
+                        <StackPane prefHeight="43.0" prefWidth="43.0">
+                           <children>
+                              <Button fx:id="B8" mnemonicParsing="false" onAction="#btB8" prefHeight="43.0" prefWidth="43.0" style="-fx-background-color: #768591;" />
+                           </children>
+                        </StackPane>
+                        <StackPane prefHeight="43.0" prefWidth="43.0">
+                           <children>
+                              <Button fx:id="C8" mnemonicParsing="false" onAction="#btC8" prefHeight="43.0" prefWidth="43.0" style="-fx-background-color: #d8e5f0;" />
+                           </children>
+                        </StackPane>
+                        <StackPane prefHeight="43.0" prefWidth="43.0">
+                           <children>
+                              <Button fx:id="D8" mnemonicParsing="false" onAction="#btD8" prefHeight="43.0" prefWidth="43.0" style="-fx-background-color: #768591;" />
+                           </children>
+                        </StackPane>
+                        <StackPane prefHeight="43.0" prefWidth="43.0">
+                           <children>
+                              <Button fx:id="E8" mnemonicParsing="false" onAction="#btE8" prefHeight="43.0" prefWidth="43.0" style="-fx-background-color: #d8e5f0;" />
+                           </children>
+                        </StackPane>
+                        <StackPane prefHeight="43.0" prefWidth="43.0">
+                           <children>
+                              <Button fx:id="F8" mnemonicParsing="false" onAction="#btF8" prefHeight="43.0" prefWidth="43.0" style="-fx-background-color: #768591;" />
+                           </children>
+                        </StackPane>
+                        <StackPane prefHeight="43.0" prefWidth="43.0">
+                           <children>
+                              <Button fx:id="G8" mnemonicParsing="false" onAction="#btG8" prefHeight="43.0" prefWidth="43.0" style="-fx-background-color: #d8e5f0;" />
+                           </children>
+                        </StackPane>
+                        <StackPane prefHeight="43.0" prefWidth="43.0">
+                           <children>
+                              <Button fx:id="H8" mnemonicParsing="false" onAction="#btH8" prefHeight="43.0" prefWidth="43.0" style="-fx-background-color: #768591;" />
+                           </children>
+                        </StackPane>
+                     </children>
+                     <padding>
+                        <Insets left="2.0" right="2.0" />
+                     </padding>
+                  </HBox>
+                  <HBox prefHeight="43.0" prefWidth="372.0" spacing="2.0">
+                     <children>
+                        <StackPane prefHeight="43.0" prefWidth="43.0">
+                           <children>
+                              <Button fx:id="A7" mnemonicParsing="false" onAction="#btA7" prefHeight="43.0" prefWidth="43.0" style="-fx-background-color: #768591;" />
+                           </children>
+                        </StackPane>
+                        <StackPane prefHeight="43.0" prefWidth="43.0">
+                           <children>
+                              <Button fx:id="B7" mnemonicParsing="false" onAction="#btB7" prefHeight="43.0" prefWidth="43.0" style="-fx-background-color: #d8e5f0;" />
+                           </children>
+                        </StackPane>
+                        <StackPane prefHeight="43.0" prefWidth="43.0">
+                           <children>
+                              <Button fx:id="C7" mnemonicParsing="false" onAction="#btC7" prefHeight="43.0" prefWidth="43.0" style="-fx-background-color: #768591;" />
+                           </children>
+                        </StackPane>
+                        <StackPane prefHeight="43.0" prefWidth="43.0">
+                           <children>
+                              <Button fx:id="D7" mnemonicParsing="false" onAction="#btD7" prefHeight="43.0" prefWidth="43.0" style="-fx-background-color: #d8e5f0;" />
+                           </children>
+                        </StackPane>
+                        <StackPane prefHeight="43.0" prefWidth="43.0">
+                           <children>
+                              <Button fx:id="E7" mnemonicParsing="false" onAction="#btE7" prefHeight="43.0" prefWidth="43.0" style="-fx-background-color: #768591;" />
+                           </children>
+                        </StackPane>
+                        <StackPane prefHeight="43.0" prefWidth="43.0">
+                           <children>
+                              <Button fx:id="F7" mnemonicParsing="false" onAction="#btF7" prefHeight="43.0" prefWidth="43.0" style="-fx-background-color: #d8e5f0;" />
+                           </children>
+                        </StackPane>
+                        <StackPane prefHeight="43.0" prefWidth="43.0">
+                           <children>
+                              <Button fx:id="G7" mnemonicParsing="false" onAction="#btG7" prefHeight="43.0" prefWidth="43.0" style="-fx-background-color: #768591;" />
+                           </children>
+                        </StackPane>
+                        <StackPane prefHeight="43.0" prefWidth="43.0">
+                           <children>
+                              <Button fx:id="H7" mnemonicParsing="false" onAction="#btH7" prefHeight="43.0" prefWidth="43.0" style="-fx-background-color: #d8e5f0;" />
+                           </children>
+                        </StackPane>
+                     </children>
+                     <padding>
+                        <Insets left="2.0" right="2.0" />
+                     </padding>
+                  </HBox>
+                  <HBox prefHeight="43.0" prefWidth="372.0" spacing="2.0">
+                     <children>
+                        <StackPane prefHeight="43.0" prefWidth="43.0">
+                           <children>
+                              <Button fx:id="A6" mnemonicParsing="false" onAction="#btA6" prefHeight="43.0" prefWidth="43.0" style="-fx-background-color: #d8e5f0;" />
+                           </children>
+                        </StackPane>
+                        <StackPane prefHeight="43.0" prefWidth="43.0">
+                           <children>
+                              <Button fx:id="B6" mnemonicParsing="false" onAction="#btB6" prefHeight="43.0" prefWidth="43.0" style="-fx-background-color: #768591;" />
+                           </children>
+                        </StackPane>
+                        <StackPane prefHeight="43.0" prefWidth="43.0">
+                           <children>
+                              <Button fx:id="C6" mnemonicParsing="false" onAction="#btC6" prefHeight="43.0" prefWidth="43.0" style="-fx-background-color: #d8e5f0;" />
+                           </children>
+                        </StackPane>
+                        <StackPane prefHeight="43.0" prefWidth="43.0">
+                           <children>
+                              <Button fx:id="D6" mnemonicParsing="false" onAction="#btD6" prefHeight="43.0" prefWidth="43.0" style="-fx-background-color: #768591;" />
+                           </children>
+                        </StackPane>
+                        <StackPane prefHeight="43.0" prefWidth="43.0">
+                           <children>
+                              <Button fx:id="E6" mnemonicParsing="false" onAction="#btE6" prefHeight="43.0" prefWidth="43.0" style="-fx-background-color: #d8e5f0;" />
+                           </children>
+                        </StackPane>
+                        <StackPane prefHeight="43.0" prefWidth="43.0">
+                           <children>
+                              <Button fx:id="F6" mnemonicParsing="false" onAction="#btF6" prefHeight="43.0" prefWidth="43.0" style="-fx-background-color: #768591;" />
+                           </children>
+                        </StackPane>
+                        <StackPane prefHeight="43.0" prefWidth="43.0">
+                           <children>
+                              <Button fx:id="G6" mnemonicParsing="false" onAction="#btG6" prefHeight="43.0" prefWidth="43.0" style="-fx-background-color: #d8e5f0;" />
+                           </children>
+                        </StackPane>
+                        <StackPane prefHeight="43.0" prefWidth="43.0">
+                           <children>
+                              <Button fx:id="H6" mnemonicParsing="false" onAction="#btH6" prefHeight="43.0" prefWidth="43.0" style="-fx-background-color: #768591;" />
+                           </children>
+                        </StackPane>
+                     </children>
+                     <padding>
+                        <Insets left="2.0" right="2.0" />
+                     </padding>
+                  </HBox>
+                  <HBox prefHeight="43.0" prefWidth="372.0" spacing="2.0">
+                     <children>
+                        <StackPane prefHeight="43.0" prefWidth="43.0">
+                           <children>
+                              <Button fx:id="A5" mnemonicParsing="false" onAction="#btA5" prefHeight="43.0" prefWidth="43.0" style="-fx-background-color: #768591;" />
+                           </children>
+                        </StackPane>
+                        <StackPane prefHeight="43.0" prefWidth="43.0">
+                           <children>
+                              <Button fx:id="B5" mnemonicParsing="false" onAction="#btB5" prefHeight="43.0" prefWidth="43.0" style="-fx-background-color: #d8e5f0;" />
+                           </children>
+                        </StackPane>
+                        <StackPane prefHeight="43.0" prefWidth="43.0">
+                           <children>
+                              <Button fx:id="C5" mnemonicParsing="false" onAction="#btC5" prefHeight="43.0" prefWidth="43.0" style="-fx-background-color: #768591;" />
+                           </children>
+                        </StackPane>
+                        <StackPane prefHeight="43.0" prefWidth="43.0">
+                           <children>
+                              <Button fx:id="D5" mnemonicParsing="false" onAction="#btD5" prefHeight="43.0" prefWidth="43.0" style="-fx-background-color: #d8e5f0;" />
+                           </children>
+                        </StackPane>
+                        <StackPane prefHeight="43.0" prefWidth="43.0">
+                           <children>
+                              <Button fx:id="E5" mnemonicParsing="false" onAction="#btE5" prefHeight="43.0" prefWidth="43.0" style="-fx-background-color: #768591;" />
+                           </children>
+                        </StackPane>
+                        <StackPane prefHeight="43.0" prefWidth="43.0">
+                           <children>
+                              <Button fx:id="F5" mnemonicParsing="false" onAction="#btF5" prefHeight="43.0" prefWidth="43.0" style="-fx-background-color: #d8e5f0;" />
+                           </children>
+                        </StackPane>
+                        <StackPane prefHeight="43.0" prefWidth="43.0">
+                           <children>
+                              <Button fx:id="G5" mnemonicParsing="false" onAction="#btG5" prefHeight="43.0" prefWidth="43.0" style="-fx-background-color: #768591;" />
+                           </children>
+                        </StackPane>
+                        <StackPane prefHeight="43.0" prefWidth="43.0">
+                           <children>
+                              <Button fx:id="H5" mnemonicParsing="false" onAction="#btH5" prefHeight="43.0" prefWidth="43.0" style="-fx-background-color: #d8e5f0;" />
+                           </children>
+                        </StackPane>
+                     </children>
+                     <padding>
+                        <Insets left="2.0" right="2.0" />
+                     </padding>
+                  </HBox>
+                  <HBox prefHeight="43.0" prefWidth="372.0" spacing="2.0">
+                     <children>
+                        <StackPane prefHeight="43.0" prefWidth="43.0">
+                           <children>
+                              <Button fx:id="A4" mnemonicParsing="false" onAction="#btA4" prefHeight="43.0" prefWidth="43.0" style="-fx-background-color: #d8e5f0;" />
+                           </children>
+                        </StackPane>
+                        <StackPane prefHeight="43.0" prefWidth="43.0">
+                           <children>
+                              <Button fx:id="B4" mnemonicParsing="false" onAction="#btB4" prefHeight="43.0" prefWidth="43.0" style="-fx-background-color: #768591;" />
+                           </children>
+                        </StackPane>
+                        <StackPane prefHeight="43.0" prefWidth="43.0">
+                           <children>
+                              <Button fx:id="C4" mnemonicParsing="false" onAction="#btC4" prefHeight="43.0" prefWidth="43.0" style="-fx-background-color: #d8e5f0;" />
+                           </children>
+                        </StackPane>
+                        <StackPane prefHeight="43.0" prefWidth="43.0">
+                           <children>
+                              <Button fx:id="D4" mnemonicParsing="false" onAction="#btD4" prefHeight="43.0" prefWidth="43.0" style="-fx-background-color: #768591;" />
+                           </children>
+                        </StackPane>
+                        <StackPane prefHeight="43.0" prefWidth="43.0">
+                           <children>
+                              <Button fx:id="E4" mnemonicParsing="false" onAction="#btE4" prefHeight="43.0" prefWidth="43.0" style="-fx-background-color: #d8e5f0;" />
+                           </children>
+                        </StackPane>
+                        <StackPane prefHeight="43.0" prefWidth="43.0">
+                           <children>
+                              <Button fx:id="F4" mnemonicParsing="false" onAction="#btF4" prefHeight="43.0" prefWidth="43.0" style="-fx-background-color: #768591;" />
+                           </children>
+                        </StackPane>
+                        <StackPane prefHeight="43.0" prefWidth="43.0">
+                           <children>
+                              <Button fx:id="G4" mnemonicParsing="false" onAction="#btG4" prefHeight="43.0" prefWidth="43.0" style="-fx-background-color: #d8e5f0;" />
+                           </children>
+                        </StackPane>
+                        <StackPane prefHeight="43.0" prefWidth="43.0">
+                           <children>
+                              <Button fx:id="H4" mnemonicParsing="false" onAction="#btH4" prefHeight="43.0" prefWidth="43.0" style="-fx-background-color: #768591;" />
+                           </children>
+                        </StackPane>
+                     </children>
+                     <padding>
+                        <Insets left="2.0" right="2.0" />
+                     </padding>
+                  </HBox>
+                  <HBox prefHeight="43.0" prefWidth="372.0" spacing="2.0">
+                     <children>
+                        <StackPane prefHeight="43.0" prefWidth="43.0">
+                           <children>
+                              <Button fx:id="A3" mnemonicParsing="false" onAction="#btA3" prefHeight="43.0" prefWidth="43.0" style="-fx-background-color: #768591;" />
+                           </children>
+                        </StackPane>
+                        <StackPane prefHeight="43.0" prefWidth="43.0">
+                           <children>
+                              <Button fx:id="B3" mnemonicParsing="false" onAction="#btB3" prefHeight="43.0" prefWidth="43.0" style="-fx-background-color: #d8e5f0;" />
+                           </children>
+                        </StackPane>
+                        <StackPane prefHeight="43.0" prefWidth="43.0">
+                           <children>
+                              <Button fx:id="C3" mnemonicParsing="false" onAction="#btC3" prefHeight="43.0" prefWidth="43.0" style="-fx-background-color: #768591;" />
+                           </children>
+                        </StackPane>
+                        <StackPane prefHeight="43.0" prefWidth="43.0">
+                           <children>
+                              <Button fx:id="D3" mnemonicParsing="false" onAction="#btD3" prefHeight="43.0" prefWidth="43.0" style="-fx-background-color: #d8e5f0;" />
+                           </children>
+                        </StackPane>
+                        <StackPane prefHeight="43.0" prefWidth="43.0">
+                           <children>
+                              <Button fx:id="E3" mnemonicParsing="false" onAction="#btE3" prefHeight="43.0" prefWidth="43.0" style="-fx-background-color: #768591;" />
+                           </children>
+                        </StackPane>
+                        <StackPane prefHeight="43.0" prefWidth="43.0">
+                           <children>
+                              <Button fx:id="F3" mnemonicParsing="false" onAction="#btF3" prefHeight="43.0" prefWidth="43.0" style="-fx-background-color: #d8e5f0;" />
+                           </children>
+                        </StackPane>
+                        <StackPane prefHeight="43.0" prefWidth="43.0">
+                           <children>
+                              <Button fx:id="G3" mnemonicParsing="false" onAction="#btG3" prefHeight="43.0" prefWidth="43.0" style="-fx-background-color: #768591;" />
+                           </children>
+                        </StackPane>
+                        <StackPane prefHeight="43.0" prefWidth="43.0">
+                           <children>
+                              <Button fx:id="H3" mnemonicParsing="false" onAction="#btH3" prefHeight="43.0" prefWidth="43.0" style="-fx-background-color: #d8e5f0;" />
+                           </children>
+                        </StackPane>
+                     </children>
+                     <padding>
+                        <Insets left="2.0" right="2.0" />
+                     </padding>
+                  </HBox>
+                  <HBox prefHeight="43.0" prefWidth="372.0" spacing="2.0">
+                     <children>
+                        <StackPane prefHeight="43.0" prefWidth="43.0">
+                           <children>
+                              <Button fx:id="A2" mnemonicParsing="false" onAction="#btA2" prefHeight="43.0" prefWidth="43.0" style="-fx-background-color: #d8e5f0;" />
+                           </children>
+                        </StackPane>
+                        <StackPane prefHeight="43.0" prefWidth="43.0">
+                           <children>
+                              <Button fx:id="B2" mnemonicParsing="false" onAction="#btB2" prefHeight="43.0" prefWidth="43.0" style="-fx-background-color: #768591;" />
+                           </children>
+                        </StackPane>
+                        <StackPane prefHeight="43.0" prefWidth="43.0">
+                           <children>
+                              <Button fx:id="C2" mnemonicParsing="false" onAction="#btC2" prefHeight="43.0" prefWidth="43.0" style="-fx-background-color: #d8e5f0;" />
+                           </children>
+                        </StackPane>
+                        <StackPane prefHeight="43.0" prefWidth="43.0">
+                           <children>
+                              <Button fx:id="D2" mnemonicParsing="false" onAction="#btD2" prefHeight="43.0" prefWidth="43.0" style="-fx-background-color: #768591;" />
+                           </children>
+                        </StackPane>
+                        <StackPane prefHeight="43.0" prefWidth="43.0">
+                           <children>
+                              <Button fx:id="E2" mnemonicParsing="false" onAction="#btE2" prefHeight="43.0" prefWidth="43.0" style="-fx-background-color: #d8e5f0;" />
+                           </children>
+                        </StackPane>
+                        <StackPane prefHeight="43.0" prefWidth="43.0">
+                           <children>
+                              <Button fx:id="F2" mnemonicParsing="false" onAction="#btF2" prefHeight="43.0" prefWidth="43.0" style="-fx-background-color: #768591;" />
+                           </children>
+                        </StackPane>
+                        <StackPane prefHeight="43.0" prefWidth="43.0">
+                           <children>
+                              <Button fx:id="G2" mnemonicParsing="false" onAction="#btG2" prefHeight="43.0" prefWidth="43.0" style="-fx-background-color: #d8e5f0;" />
+                           </children>
+                        </StackPane>
+                        <StackPane prefHeight="43.0" prefWidth="43.0">
+                           <children>
+                              <Button fx:id="H2" mnemonicParsing="false" onAction="#btH2" prefHeight="43.0" prefWidth="43.0" style="-fx-background-color: #768591;" />
+                           </children>
+                        </StackPane>
+                     </children>
+                     <padding>
+                        <Insets left="2.0" right="2.0" />
+                     </padding>
+                  </HBox>
+                  <HBox prefHeight="43.0" prefWidth="372.0" spacing="2.0">
+                     <children>
+                        <StackPane prefHeight="43.0" prefWidth="43.0">
+                           <children>
+                              <Button fx:id="A1" mnemonicParsing="false" onAction="#btA1" prefHeight="43.0" prefWidth="43.0" style="-fx-background-color: #768591;" />
+                           </children>
+                        </StackPane>
+                        <StackPane prefHeight="43.0" prefWidth="43.0">
+                           <children>
+                              <Button fx:id="B1" mnemonicParsing="false" onAction="#btB1" prefHeight="43.0" prefWidth="43.0" style="-fx-background-color: #d8e5f0;" />
+                           </children>
+                        </StackPane>
+                        <StackPane prefHeight="43.0" prefWidth="43.0">
+                           <children>
+                              <Button fx:id="C1" mnemonicParsing="false" onAction="#btC1" prefHeight="43.0" prefWidth="43.0" style="-fx-background-color: #768591;" />
+                           </children>
+                        </StackPane>
+                        <StackPane prefHeight="43.0" prefWidth="43.0">
+                           <children>
+                              <Button fx:id="D1" mnemonicParsing="false" onAction="#btD1" prefHeight="43.0" prefWidth="43.0" style="-fx-background-color: #d8e5f0;" />
+                           </children>
+                        </StackPane>
+                        <StackPane prefHeight="43.0" prefWidth="43.0">
+                           <children>
+                              <Button fx:id="E1" mnemonicParsing="false" onAction="#btE1" prefHeight="43.0" prefWidth="43.0" style="-fx-background-color: #768591;" />
+                           </children>
+                        </StackPane>
+                        <StackPane prefHeight="43.0" prefWidth="43.0">
+                           <children>
+                              <Button fx:id="F1" mnemonicParsing="false" onAction="#btF1" prefHeight="43.0" prefWidth="43.0" style="-fx-background-color: #d8e5f0;" />
+                           </children>
+                        </StackPane>
+                        <StackPane prefHeight="43.0" prefWidth="43.0">
+                           <children>
+                              <Button fx:id="G1" mnemonicParsing="false" onAction="#btG1" prefHeight="43.0" prefWidth="43.0" style="-fx-background-color: #768591;" />
+                           </children>
+                        </StackPane>
+                        <StackPane prefHeight="43.0" prefWidth="43.0">
+                           <children>
+                              <Button fx:id="H1" mnemonicParsing="false" onAction="#btH1" prefHeight="43.0" prefWidth="43.0" style="-fx-background-color: #d8e5f0;" />
+                           </children>
+                        </StackPane>
+                     </children>
+                     <padding>
+                        <Insets left="2.0" right="2.0" />
+                     </padding>
+                  </HBox>
+               </children>
+               <padding>
+                  <Insets bottom="2.0" top="1.0" />
+               </padding>
+            </VBox>
+            <VBox layoutX="1.0" layoutY="1.0" prefHeight="372.0" prefWidth="10.0" spacing="2.0">
+               <children>
+                  <Label alignment="CENTER" prefHeight="43.0" prefWidth="8.0" text="8" textFill="WHITE" />
+                  <Label alignment="CENTER" prefHeight="43.0" prefWidth="8.0" text="7" textFill="WHITE" />
+                  <Label alignment="CENTER" prefHeight="43.0" prefWidth="8.0" text="6" textFill="WHITE" />
+                  <Label alignment="CENTER" prefHeight="43.0" prefWidth="8.0" text="5" textFill="WHITE" />
+                  <Label alignment="CENTER" prefHeight="43.0" prefWidth="8.0" text="4" textFill="WHITE" />
+                  <Label alignment="CENTER" prefHeight="43.0" prefWidth="8.0" text="3" textFill="WHITE" />
+                  <Label alignment="CENTER" prefHeight="43.0" prefWidth="8.0" text="2" textFill="WHITE" />
+                  <Label alignment="CENTER" prefHeight="43.0" prefWidth="8.0" text="1" textFill="WHITE" />
+               </children>
+               <padding>
+                  <Insets left="2.0" />
+               </padding>
+            </VBox>
+            <HBox layoutX="17.0" layoutY="363.0" prefHeight="13.0" prefWidth="355.0" spacing="2.0">
+               <children>
+                  <Label alignment="CENTER" prefHeight="13.0" prefWidth="43.0" text="A" textFill="WHITE">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" prefHeight="13.0" prefWidth="43.0" text="B" textFill="WHITE">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" prefHeight="13.0" prefWidth="43.0" text="C" textFill="WHITE">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" prefHeight="13.0" prefWidth="43.0" text="D" textFill="WHITE">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" prefHeight="13.0" prefWidth="43.0" text="E" textFill="WHITE">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" prefHeight="13.0" prefWidth="43.0" text="F" textFill="WHITE">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" prefHeight="13.0" prefWidth="43.0" text="G" textFill="WHITE">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" prefHeight="13.0" prefWidth="43.0" text="H" textFill="WHITE">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="400.0" layoutY="12.0" prefHeight="111.0" prefWidth="188.0" style="-fx-background-color: #e1eef0;">
+         <children>
+            <VBox layoutX="81.0" layoutY="4.0" prefHeight="83.0" prefWidth="100.0" style="-fx-background-color: #ebf3f5;">
+               <children>
+                  <Label fx:id="nickLabel" prefHeight="14.0" prefWidth="80.0" text="닉네임">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="gameLabel" prefHeight="14.0" prefWidth="80.0" text="전적">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="winloseLabel" prefHeight="14.0" prefWidth="80.0" text="몇 승 몇 패">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="percentLabel" prefHeight="14.0" prefWidth="80.0" text="승률 : 100%">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Label>
+                  <HBox prefHeight="22.0" prefWidth="200.0" spacing="3.0">
+                     <children>
+                        <Button fx:id="startButton" mnemonicParsing="false" onAction="#startGame" prefHeight="16.0" prefWidth="40.0" text="시작">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="outButton" mnemonicParsing="false" onAction="#toLobby" prefHeight="19.0" prefWidth="49.0" text="나가기">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </HBox>
+               </children>
+               <padding>
+                  <Insets bottom="3.0" left="5.0" right="3.0" top="3.0" />
+               </padding>
+            </VBox>
+            <Label layoutX="6.0" layoutY="45.0" prefHeight="21.0" prefWidth="15.0" text="나">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="idLabel" alignment="CENTER" layoutX="22.0" layoutY="2.0" prefHeight="22.0" prefWidth="50.0" text="아이디">
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </Label>
+            <AnchorPane layoutX="24.0" layoutY="24.0" prefHeight="62.0" prefWidth="47.0" style="-fx-background-color: #d1d1d1;">
+               <children>
+                  <ImageView fx:id="picImageView" fitHeight="60.0" fitWidth="45.0" layoutX="1.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../image/avatar3.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+            <ImageView fx:id="colorImage" fitHeight="22.0" fitWidth="23.0" pickOnBounds="true" preserveRatio="true" />
+            <HBox layoutX="2.0" layoutY="90.0" prefHeight="13.0" prefWidth="184.0">
+               <children>
+                  <ImageView fx:id="myPoro0" fitHeight="18.0" fitWidth="16.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fx:id="myPoro1" fitHeight="18.0" fitWidth="16.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fx:id="myPoro2" fitHeight="18.0" fitWidth="16.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fx:id="myPoro3" fitHeight="18.0" fitWidth="16.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fx:id="myPoro4" fitHeight="18.0" fitWidth="16.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fx:id="myPoro5" fitHeight="18.0" fitWidth="16.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fx:id="myPoro6" fitHeight="18.0" fitWidth="16.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fx:id="myPoro7" fitHeight="18.0" fitWidth="16.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fx:id="myPoro8" fitHeight="18.0" fitWidth="16.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fx:id="myPoro9" fitHeight="18.0" fitWidth="16.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fx:id="myPoro10" fitHeight="18.0" fitWidth="16.0" pickOnBounds="true" preserveRatio="true" />
+               </children>
+            </HBox>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="400.0" layoutY="131.0" prefHeight="111.0" prefWidth="188.0" style="-fx-background-color: #f0e6e1;">
+         <children>
+            <VBox layoutX="5.0" layoutY="4.0" prefHeight="85.0" prefWidth="100.0" style="-fx-background-color: #f5f0ed;">
+               <children>
+                  <Label fx:id="nickLabel1" prefHeight="14.0" prefWidth="80.0" text="닉네임">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="gameLabel1" prefHeight="14.0" prefWidth="80.0" text="전적">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="winloseLabel1" prefHeight="14.0" prefWidth="80.0" text="      승     패">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="percentLabel1" prefHeight="14.0" prefWidth="80.0" text="승률 : 0.00%">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Label>
+                  <HBox prefHeight="22.0" prefWidth="200.0" spacing="3.0">
+                     <children>
+                        <Button fx:id="drawButton" mnemonicParsing="false" onAction="#askDraw" prefHeight="19.0" prefWidth="48.0" text="무승부">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Button>
+                        <TextField fx:id="readyStatus" editable="false" prefHeight="20.0" prefWidth="38.0">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </TextField>
+                     </children>
+                  </HBox>
+               </children>
+               <padding>
+                  <Insets bottom="3.0" left="5.0" right="3.0" top="3.0" />
+               </padding>
+            </VBox>
+            <Label fx:id="idLabel1" layoutX="117.0" layoutY="3.0" prefHeight="22.0" prefWidth="50.0" text="아이디">
+               <font>
+                  <Font size="10.0" />
+               </font>
+               <padding>
+                  <Insets left="2.0" />
+               </padding>
+            </Label>
+            <AnchorPane layoutX="120.0" layoutY="25.0" prefHeight="62.0" prefWidth="47.0" style="-fx-background-color: #d1d1d1;">
+               <children>
+                  <ImageView fx:id="picImageView1" fitHeight="60.0" fitWidth="45.0" layoutX="1.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../image/avatar3.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+            <ImageView fx:id="colorImage1" fitHeight="22.0" fitWidth="23.0" layoutX="163.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true" />
+            <HBox layoutX="2.0" layoutY="90.0" prefHeight="13.0" prefWidth="184.0">
+               <children>
+                  <ImageView fx:id="Oppo0" fitHeight="18.0" fitWidth="16.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fx:id="Oppo1" fitHeight="18.0" fitWidth="16.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fx:id="Oppo2" fitHeight="18.0" fitWidth="16.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fx:id="Oppo3" fitHeight="18.0" fitWidth="16.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fx:id="Oppo4" fitHeight="18.0" fitWidth="16.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fx:id="Oppo5" fitHeight="18.0" fitWidth="16.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fx:id="Oppo6" fitHeight="18.0" fitWidth="16.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fx:id="Oppo7" fitHeight="18.0" fitWidth="16.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fx:id="Oppo8" fitHeight="18.0" fitWidth="16.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fx:id="Oppo9" fitHeight="18.0" fitWidth="16.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fx:id="Oppo10" fitHeight="18.0" fitWidth="16.0" pickOnBounds="true" preserveRatio="true" />
+               </children>
+            </HBox>
+         </children>
+      </AnchorPane>
+      <TextArea fx:id="chatArea" editable="false" layoutX="400.0" layoutY="252.0" prefHeight="111.0" prefWidth="188.0">
+         <font>
+            <Font size="10.0" />
+         </font></TextArea>
+      <TextField fx:id="chatField" layoutX="400.0" layoutY="368.0" onAction="#sendMessage" prefHeight="18.0" promptText="채팅입력">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </TextField>
+      <Button layoutX="540.0" layoutY="368.0" mnemonicParsing="false" onAction="#sendMessage" prefHeight="19.0" prefWidth="48.0" text="전송">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Button>
+      <Label fx:id="loseLabel" layoutX="105.0" layoutY="131.0" prefHeight="111.0" prefWidth="320.0" text="LOSE" visible="false">
+         <font>
+            <Font name="Calibri Bold Italic" size="96.0" />
+         </font>
+         <textFill>
+            <LinearGradient cycleMethod="REFLECT" endX="0.4848484288562428" endY="0.6401515603065492" startX="0.2424242144281214" startY="0.19318183263142907">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="1.0" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.007518796992481203">
+                     <color>
+                        <Color red="1.0" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.12180451127819543">
+                     <color>
+                        <Color red="1.0" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.9308270217780779">
+                     <color>
+                        <Color red="0.9052631855010986" green="0.9052631855010986" blue="0.9052631855010986" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.999999954108905">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.999999954108905">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <Label fx:id="winLabel" alignment="CENTER_RIGHT" layoutX="5.0" layoutY="131.0" prefHeight="111.0" prefWidth="281.0" text="WIN" visible="false">
+         <font>
+            <Font name="Calibri Bold Italic" size="96.0" />
+         </font>
+         <textFill>
+            <LinearGradient cycleMethod="REFLECT" endX="0.7234848051360159" endY="0.17803031928611535" startX="0.12499993949225455" startY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.3436620533466339" blue="1.0" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.007518796992481203">
+                     <color>
+                        <Color red="0.1859649121761322" blue="0.557894766330719" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.1699248120300752">
+                     <color>
+                        <Color red="0.0913684219121933" green="0.0032748538069427013" blue="0.8842105269432068" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.476691683432213">
+                     <color>
+                        <Color red="0.8947368264198303" green="0.8881091475486755" blue="0.8881091475486755" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.9456944247410979">
+                     <color>
+                        <Color red="0.21666666865348816" blue="1.0" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.21666666865348816" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <Label fx:id="drawLabel" alignment="CENTER_RIGHT" layoutX="15.0" layoutY="141.0" prefHeight="111.0" prefWidth="320.0" text="DRAW" visible="false">
+         <font>
+            <Font name="Calibri Bold Italic" size="96.0" />
+         </font>
+         <textFill>
+            <LinearGradient cycleMethod="REFLECT" endX="0.678030303030303" endY="0.9507575730482737" startX="0.4053029734076875" startY="0.09848480513601586">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.31578946113586426" green="0.31578946113586426" blue="0.31578946113586426" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.010781671159029647">
+                     <color>
+                        <Color red="0.31578946113586426" green="0.31578946113586426" blue="0.31578946113586426" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.1293233082706767">
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.7870619946091642">
+                     <color>
+                        <Color red="0.5263158082962036" green="0.5263158082962036" blue="0.5263158082962036" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+   </children>
+</AnchorPane>

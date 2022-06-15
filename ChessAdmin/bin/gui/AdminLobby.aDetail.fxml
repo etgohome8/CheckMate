@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="admin.LobbyUserDetailController">
+	<children>
+		<ImageView fitHeight="150.0" fitWidth="50.0" layoutX="545.0" layoutY="352.0" pickOnBounds="true" preserveRatio="true">
+			<image>
+				<Image url="@../image/Chess_Icon_cut.png" />
+			</image>
+		</ImageView>
+		<VBox layoutX="14.0" layoutY="14.0" prefHeight="341.0" prefWidth="100.0" spacing="4.0">
+			<children>
+				<Button fx:id="toUserButton" mnemonicParsing="false" onAction="#toUser" prefHeight="45.0" prefWidth="100.0" text="회원관리">
+					<font>
+						<Font name="System Bold" size="12.0" />
+					</font>
+				</Button>
+				<Button fx:id="toGameButton" mnemonicParsing="false" onAction="#toGame" prefHeight="45.0" prefWidth="100.0" text="게임관리">
+					<font>
+						<Font name="System Bold" size="12.0" />
+					</font>
+				</Button>
+				<Button fx:id="toServerButton" mnemonicParsing="false" onAction="#toServer" prefHeight="45.0" prefWidth="100.0" text="서버관리">
+					<font>
+						<Font name="System Bold" size="12.0" />
+					</font>
+				</Button>
+				<Button fx:id="toChatButton" mnemonicParsing="false" onAction="#toChat" prefHeight="45.0" prefWidth="100.0" text="채팅관리">
+					<font>
+						<Font name="System Bold" size="12.0" />
+					</font>
+				</Button>
+				<Button fx:id="toRankButton" mnemonicParsing="false" onAction="#toRank" prefHeight="45.0" prefWidth="100.0" text="랭킹/통계">
+					<font>
+						<Font name="System Bold" size="12.0" />
+					</font>
+				</Button>
+				<Button fx:id="toAdminButton" mnemonicParsing="false" onAction="#toAdmin" prefHeight="45.0" prefWidth="100.0" text="관리자관리">
+					<font>
+						<Font name="System Bold" size="12.0" />
+					</font>
+				</Button>
+			</children>
+		</VBox>
+		<Button fx:id="logoutButton" alignment="CENTER" layoutX="14.0" layoutY="364.0" mnemonicParsing="false" onAction="#switchtoLogin" prefHeight="22.0" prefWidth="99.0" text="로그아웃" />
+		<AnchorPane layoutX="126.0" layoutY="14.0" prefHeight="330.0" prefWidth="460.0" style="-fx-background-color: #ffffff; -fx-background-radius: 10; -fx-border-color: #5c5c5c; -fx-border-radius: 10;">
+			<children>
+				<Label layoutX="12.0" layoutY="11.0" prefHeight="18.0" prefWidth="127.0" text="《회원관리-상세》">
+					<font>
+						<Font size="14.0" />
+					</font>
+				</Label>
+				<Button fx:id="changeButton" layoutX="174.0" layoutY="293.0" mnemonicParsing="false" onAction="#updateInfo" prefHeight="22.0" prefWidth="50.0" style="-fx-font-size: 10; -fx-alignment: CENTER;" text="수정" />
+				<Button fx:id="backButton" layoutX="235.0" layoutY="293.0" mnemonicParsing="false" onAction="#toUser" prefHeight="22.0" prefWidth="50.0" style="-fx-font-size: 10; -fx-alignment: CENTER;" text="뒤로" />
+				<Button fx:id="deleteButton" layoutX="386.0" layoutY="293.0" mnemonicParsing="false" onAction="#deleteUser" opacity="0.5" prefHeight="22.0" prefWidth="60.0" style="-fx-font-size: 10; -fx-alignment: CENTER;" text="강제탈퇴" />
+            <AnchorPane layoutX="48.0" layoutY="81.0" prefHeight="134.0" prefWidth="101.0" style="-fx-background-color: #d1d1d1;">
+               <children>
+                  <ImageView fx:id="photoImage" fitHeight="132.0" fitWidth="99.0" layoutX="1.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../image/avatar3.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+            <Button fx:id="photoButton" layoutX="49.0" layoutY="223.0" mnemonicParsing="false" onAction="#uploadPhoto" prefHeight="22.0" prefWidth="53.0" style="-fx-font-size: 10; -fx-alignment: CENTER;" text="사진수정" />
+            <Button fx:id="deletePhotoButton" layoutX="111.0" layoutY="223.0" mnemonicParsing="false" onAction="#deletePhoto" prefHeight="22.0" prefWidth="38.0" style="-fx-font-size: 10; -fx-alignment: CENTER;" text="삭제" />
+            <VBox layoutX="168.0" layoutY="69.0" prefHeight="192.0" prefWidth="50.0" spacing="5.0">
+               <children>
+                  <Label alignment="CENTER" prefHeight="22.0" prefWidth="50.0" text="아이디" />
+                  <Label alignment="CENTER" prefHeight="22.0" prefWidth="50.0" text="닉네임" />
+                  <Label alignment="CENTER" prefHeight="22.0" prefWidth="50.0" text="비밀번호" />
+                  <Label alignment="CENTER" prefHeight="22.0" prefWidth="50.0" text="성별" />
+                  <Label alignment="CENTER" prefHeight="22.0" prefWidth="50.0" text="전적" />
+                  <Label alignment="CENTER" prefHeight="22.0" prefWidth="50.0" text="가입일" />
+                  <Label alignment="CENTER" prefHeight="22.0" prefWidth="50.0" text="정지여부" />
+               </children>
+               <padding>
+                  <Insets top="2.0" />
+               </padding>
+            </VBox>
+            <VBox fillWidth="false" layoutX="233.0" layoutY="69.0" prefHeight="192.0" prefWidth="174.0" spacing="5.0">
+               <padding>
+                  <Insets top="2.0" />
+               </padding>
+               <children>
+                  <Label fx:id="idLabel" prefHeight="22.0" prefWidth="171.0" text="Label">
+                     <padding>
+                        <Insets left="2.0" />
+                     </padding>
+                  </Label>
+                  <TextField fx:id="nickField" prefHeight="22.0" prefWidth="107.0" />
+                  <HBox prefHeight="22.0" prefWidth="174.0" spacing="3.0">
+                     <children>
+                        <PasswordField fx:id="pwField" prefHeight="22.0" prefWidth="68.0" />
+                        <Label alignment="CENTER_RIGHT" prefHeight="22.0" prefWidth="31.0" text="확인">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                           <opaqueInsets>
+                              <Insets top="2.0" />
+                           </opaqueInsets>
+                        </Label>
+                        <PasswordField fx:id="checkField" prefHeight="22.0" prefWidth="68.0" />
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="22.0" prefWidth="174.0" spacing="30.0">
+                     <children>
+                        <RadioButton fx:id="maleButton" mnemonicParsing="false" prefHeight="22.0" text="남성">
+                           <font>
+                              <Font size="11.0" />
+                           </font>
+                           <toggleGroup>
+                              <ToggleGroup fx:id="gender" />
+                           </toggleGroup>
+                           <HBox.margin>
+                              <Insets top="1.0" />
+                           </HBox.margin>
+                        </RadioButton>
+                        <RadioButton fx:id="femaleButton" mnemonicParsing="false" prefHeight="22.0" text="여성" toggleGroup="$gender">
+                           <font>
+                              <Font size="11.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets top="1.0" />
+                           </HBox.margin>
+                        </RadioButton>
+                     </children>
+                     <VBox.margin>
+                        <Insets left="5.0" />
+                     </VBox.margin>
+                  </HBox>
+                  <HBox fillHeight="false" prefHeight="22.0" prefWidth="181.0" spacing="3.0">
+                     <children>
+                        <Label alignment="CENTER_RIGHT" prefHeight="22.0" prefWidth="14.0" text="승">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                        <TextField fx:id="winField" prefHeight="22.0" prefWidth="28.0" />
+                        <Label alignment="CENTER_RIGHT" prefHeight="22.0" prefWidth="22.0" text="패">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                        <TextField fx:id="loseField" prefHeight="22.0" prefWidth="28.0" />
+                        <Label alignment="CENTER_RIGHT" prefHeight="22.0" prefWidth="22.0" text="전">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                        <TextField fx:id="gameField" prefHeight="22.0" prefWidth="38.0" />
+                     </children>
+                  </HBox>
+                  <Label fx:id="joinLabel" prefHeight="22.0" prefWidth="171.0" text="Label">
+                     <padding>
+                        <Insets left="2.0" />
+                     </padding>
+                  </Label>
+                  <HBox prefHeight="22.0" prefWidth="174.0" spacing="30.0">
+                     <children>
+                        <RadioButton fx:id="bannTrue" mnemonicParsing="false" prefHeight="22.0" text="정지(T)">
+                           <font>
+                              <Font size="11.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets top="1.0" />
+                           </HBox.margin>
+                           <toggleGroup>
+                              <ToggleGroup fx:id="bann" />
+                           </toggleGroup>
+                        </RadioButton>
+                        <RadioButton fx:id="bannFalse" mnemonicParsing="false" prefHeight="22.0" text="활동(F)" toggleGroup="$bann">
+                           <font>
+                              <Font size="11.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets top="1.0" />
+                           </HBox.margin>
+                        </RadioButton>
+                     </children>
+                     <VBox.margin>
+                        <Insets left="5.0" />
+                     </VBox.margin>
+                  </HBox>
+               </children>
+            </VBox>
+            <Label fx:id="statusLabel" alignment="CENTER" layoutX="142.0" layoutY="266.0" prefHeight="22.0" prefWidth="174.0" text="Label" />
+			</children>
+		</AnchorPane>
+	</children>
+</AnchorPane>

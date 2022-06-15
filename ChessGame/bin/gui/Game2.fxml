@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Game2Controller">
+   <children>
+      <AnchorPane layoutX="12.0" layoutY="12.0" prefHeight="376.0" prefWidth="376.0" style="-fx-background-color: #134b70;">
+         <children>
+            <VBox layoutX="1.0" layoutY="1.0" prefHeight="372.0" prefWidth="10.0" spacing="2.0">
+               <children>
+                  <Label alignment="CENTER" prefHeight="43.0" prefWidth="8.0" text="8" textFill="WHITE" />
+                  <Label alignment="CENTER" prefHeight="43.0" prefWidth="8.0" text="7" textFill="WHITE" />
+                  <Label alignment="CENTER" prefHeight="43.0" prefWidth="8.0" text="6" textFill="WHITE" />
+                  <Label alignment="CENTER" prefHeight="43.0" prefWidth="8.0" text="5" textFill="WHITE" />
+                  <Label alignment="CENTER" prefHeight="43.0" prefWidth="8.0" text="4" textFill="WHITE" />
+                  <Label alignment="CENTER" prefHeight="43.0" prefWidth="8.0" text="3" textFill="WHITE" />
+                  <Label alignment="CENTER" prefHeight="43.0" prefWidth="8.0" text="2" textFill="WHITE" />
+                  <Label alignment="CENTER" prefHeight="43.0" prefWidth="8.0" text="1" textFill="WHITE" />
+               </children>
+               <padding>
+                  <Insets left="2.0" />
+               </padding>
+            </VBox>
+            <HBox layoutX="17.0" layoutY="363.0" prefHeight="13.0" prefWidth="355.0" spacing="2.0">
+               <children>
+                  <Label alignment="CENTER" prefHeight="13.0" prefWidth="43.0" text="A" textFill="WHITE">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" prefHeight="13.0" prefWidth="43.0" text="B" textFill="WHITE">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" prefHeight="13.0" prefWidth="43.0" text="C" textFill="WHITE">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" prefHeight="13.0" prefWidth="43.0" text="D" textFill="WHITE">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" prefHeight="13.0" prefWidth="43.0" text="E" textFill="WHITE">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" prefHeight="13.0" prefWidth="43.0" text="F" textFill="WHITE">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" prefHeight="13.0" prefWidth="43.0" text="G" textFill="WHITE">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" prefHeight="13.0" prefWidth="43.0" text="H" textFill="WHITE">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <StackPane layoutX="12.0" layoutY="3.0" prefHeight="362.0" prefWidth="362.0">
+               <children>
+                  <VBox prefHeight="362.0" prefWidth="362.0" spacing="2.0" style="-fx-background-color: #09293d;">
+                     <children>
+                        <HBox prefHeight="43.0" prefWidth="372.0" spacing="2.0">
+                           <padding>
+                              <Insets left="2.0" right="2.0" />
+                           </padding>
+                           <children>
+                              <Pane prefHeight="43.0" prefWidth="43.0" style="-fx-background-color: #768591; -fx-background-radius: 4;" />
+                              <Pane prefHeight="43.0" prefWidth="43.0" style="-fx-background-color: #d8e5f0; -fx-background-radius: 4;" />
+                              <Pane prefHeight="43.0" prefWidth="43.0" style="-fx-background-color: #768591; -fx-background-radius: 4;" />
+                              <Pane prefHeight="43.0" prefWidth="43.0" style="-fx-background-color: #d8e5f0; -fx-background-radius: 4;" />
+                              <Pane prefHeight="43.0" prefWidth="43.0" style="-fx-background-color: #768591; -fx-background-radius: 4;" />
+                              <Pane prefHeight="43.0" prefWidth="43.0" style="-fx-background-color: #d8e5f0; -fx-background-radius: 4;" />
+                              <Pane prefHeight="43.0" prefWidth="43.0" style="-fx-background-color: #768591; -fx-background-radius: 4;" />
+                              <Pane prefHeight="43.0" prefWidth="43.0" style="-fx-background-color: #d8e5f0; -fx-background-radius: 4;" />
+                           </children>
+                        </HBox>
+                        <HBox prefHeight="43.0" prefWidth="372.0" spacing="2.0">
+                           <padding>
+                              <Insets left="2.0" right="2.0" />
+                           </padding>
+                           <children>
+                              <Pane prefHeight="43.0" prefWidth="43.0" style="-fx-background-color: #d8e5f0; -fx-background-radius: 4;" />
+                              <Pane prefHeight="43.0" prefWidth="43.0" style="-fx-background-color: #768591; -fx-background-radius: 4;" />
+                              <Pane prefHeight="43.0" prefWidth="43.0" style="-fx-background-color: #d8e5f0; -fx-background-radius: 4;" />
+                              <Pane prefHeight="43.0" prefWidth="43.0" style="-fx-background-color: #768591; -fx-background-radius: 4;" />
+                              <Pane prefHeight="43.0" prefWidth="43.0" style="-fx-background-color: #d8e5f0; -fx-background-radius: 4;" />
+                              <Pane prefHeight="43.0" prefWidth="43.0" style="-fx-background-color: #768591; -fx-background-radius: 4;" />
+                              <Pane prefHeight="43.0" prefWidth="43.0" style="-fx-background-color: #d8e5f0; -fx-background-radius: 4;" />
+                              <Pane prefHeight="43.0" prefWidth="43.0" style="-fx-background-color: #768591; -fx-background-radius: 4;" />
+                           </children>
+                        </HBox>
+                        <HBox prefHeight="43.0" prefWidth="372.0" spacing="2.0">
+                           <padding>
+                              <Insets left="2.0" right="2.0" />
+                           </padding>
+                           <children>
+                              <Pane prefHeight="43.0" prefWidth="43.0" style="-fx-background-color: #768591; -fx-background-radius: 4;" />
+                              <Pane prefHeight="43.0" prefWidth="43.0" style="-fx-background-color: #d8e5f0; -fx-background-radius: 4;" />
+                              <Pane prefHeight="43.0" prefWidth="43.0" style="-fx-background-color: #768591; -fx-background-radius: 4;" />
+                              <Pane prefHeight="43.0" prefWidth="43.0" style="-fx-background-color: #d8e5f0; -fx-background-radius: 4;" />
+                              <Pane prefHeight="43.0" prefWidth="43.0" style="-fx-background-color: #768591; -fx-background-radius: 4;" />
+                              <Pane prefHeight="43.0" prefWidth="43.0" style="-fx-background-color: #d8e5f0; -fx-background-radius: 4;" />
+                              <Pane prefHeight="43.0" prefWidth="43.0" style="-fx-background-color: #768591; -fx-background-radius: 4;" />
+                              <Pane prefHeight="43.0" prefWidth="43.0" style="-fx-background-color: #d8e5f0; -fx-background-radius: 4;" />
+                           </children>
+                        </HBox>
+                        <HBox prefHeight="43.0" prefWidth="372.0" spacing="2.0">
+                           <padding>
+                              <Insets left="2.0" right="2.0" />
+                           </padding>
+                           <children>
+                              <Pane prefHeight="43.0" prefWidth="43.0" style="-fx-background-color: #d8e5f0; -fx-background-radius: 4;" />
+                              <Pane prefHeight="43.0" prefWidth="43.0" style="-fx-background-color: #768591; -fx-background-radius: 4;" />
+                              <Pane prefHeight="43.0" prefWidth="43.0" style="-fx-background-color: #d8e5f0; -fx-background-radius: 4;" />
+                              <Pane prefHeight="43.0" prefWidth="43.0" style="-fx-background-color: #768591; -fx-background-radius: 4;" />
+                              <Pane prefHeight="43.0" prefWidth="43.0" style="-fx-background-color: #d8e5f0; -fx-background-radius: 4;" />
+                              <Pane prefHeight="43.0" prefWidth="43.0" style="-fx-background-color: #768591; -fx-background-radius: 4;" />
+                              <Pane prefHeight="43.0" prefWidth="43.0" style="-fx-background-color: #d8e5f0; -fx-background-radius: 4;" />
+                              <Pane prefHeight="43.0" prefWidth="43.0" style="-fx-background-color: #768591; -fx-background-radius: 4;" />
+                           </children>
+                        </HBox>
+                        <HBox prefHeight="43.0" prefWidth="372.0" spacing="2.0">
+                           <padding>
+                              <Insets left="2.0" right="2.0" />
+                           </padding>
+                           <children>
+                              <Pane prefHeight="43.0" prefWidth="43.0" style="-fx-background-color: #768591; -fx-background-radius: 4;" />
+                              <Pane prefHeight="43.0" prefWidth="43.0" style="-fx-background-color: #d8e5f0; -fx-background-radius: 4;" />
+                              <Pane prefHeight="43.0" prefWidth="43.0" style="-fx-background-color: #768591; -fx-background-radius: 4;" />
+                              <Pane prefHeight="43.0" prefWidth="43.0" style="-fx-background-color: #d8e5f0; -fx-background-radius: 4;" />
+                              <Pane prefHeight="43.0" prefWidth="43.0" style="-fx-background-color: #768591; -fx-background-radius: 4;" />
+                              <Pane prefHeight="43.0" prefWidth="43.0" style="-fx-background-color: #d8e5f0; -fx-background-radius: 4;" />
+                              <Pane prefHeight="43.0" prefWidth="43.0" style="-fx-background-color: #768591; -fx-background-radius: 4;" />
+                              <Pane prefHeight="43.0" prefWidth="43.0" style="-fx-background-color: #d8e5f0; -fx-background-radius: 4;" />
+                           </children>
+                        </HBox>
+                        <HBox prefHeight="43.0" prefWidth="372.0" spacing="2.0">
+                           <padding>
+                              <Insets left="2.0" right="2.0" />
+                           </padding>
+                           <children>
+                              <Pane prefHeight="43.0" prefWidth="43.0" style="-fx-background-color: #d8e5f0; -fx-background-radius: 4;" />
+                              <Pane prefHeight="43.0" prefWidth="43.0" style="-fx-background-color: #768591; -fx-background-radius: 4;" />
+                              <Pane prefHeight="43.0" prefWidth="43.0" style="-fx-background-color: #d8e5f0; -fx-background-radius: 4;" />
+                              <Pane prefHeight="43.0" prefWidth="43.0" style="-fx-background-color: #768591; -fx-background-radius: 4;" />
+                              <Pane prefHeight="43.0" prefWidth="43.0" style="-fx-background-color: #d8e5f0; -fx-background-radius: 4;" />
+                              <Pane prefHeight="43.0" prefWidth="43.0" style="-fx-background-color: #768591; -fx-background-radius: 4;" />
+                              <Pane prefHeight="43.0" prefWidth="43.0" style="-fx-background-color: #d8e5f0; -fx-background-radius: 4;" />
+                              <Pane prefHeight="43.0" prefWidth="43.0" style="-fx-background-color: #768591; -fx-background-radius: 4;" />
+                           </children>
+                        </HBox>
+                        <HBox prefHeight="43.0" prefWidth="372.0" spacing="2.0">
+                           <padding>
+                              <Insets left="2.0" right="2.0" />
+                           </padding>
+                           <children>
+                              <Pane prefHeight="43.0" prefWidth="43.0" style="-fx-background-color: #768591; -fx-background-radius: 4;" />
+                              <Pane prefHeight="43.0" prefWidth="43.0" style="-fx-background-color: #d8e5f0; -fx-background-radius: 4;" />
+                              <Pane prefHeight="43.0" prefWidth="43.0" style="-fx-background-color: #768591; -fx-background-radius: 4;" />
+                              <Pane prefHeight="43.0" prefWidth="43.0" style="-fx-background-color: #d8e5f0; -fx-background-radius: 4;" />
+                              <Pane prefHeight="43.0" prefWidth="43.0" style="-fx-background-color: #768591; -fx-background-radius: 4;" />
+                              <Pane prefHeight="43.0" prefWidth="43.0" style="-fx-background-color: #d8e5f0; -fx-background-radius: 4;" />
+                              <Pane prefHeight="43.0" prefWidth="43.0" style="-fx-background-color: #768591; -fx-background-radius: 4;" />
+                              <Pane prefHeight="43.0" prefWidth="43.0" style="-fx-background-color: #d8e5f0; -fx-background-radius: 4;" />
+                           </children>
+                        </HBox>
+                        <HBox prefHeight="43.0" prefWidth="372.0" spacing="2.0">
+                           <padding>
+                              <Insets left="2.0" right="2.0" />
+                           </padding>
+                           <children>
+                              <Pane prefHeight="43.0" prefWidth="43.0" style="-fx-background-color: #d8e5f0; -fx-background-radius: 4;" />
+                              <Pane prefHeight="43.0" prefWidth="43.0" style="-fx-background-color: #768591; -fx-background-radius: 4;" />
+                              <Pane prefHeight="43.0" prefWidth="43.0" style="-fx-background-color: #d8e5f0; -fx-background-radius: 4;" />
+                              <Pane prefHeight="43.0" prefWidth="43.0" style="-fx-background-color: #768591; -fx-background-radius: 4;" />
+                              <Pane prefHeight="43.0" prefWidth="43.0" style="-fx-background-color: #d8e5f0; -fx-background-radius: 4;" />
+                              <Pane prefHeight="43.0" prefWidth="43.0" style="-fx-background-color: #768591; -fx-background-radius: 4;" />
+                              <Pane prefHeight="43.0" prefWidth="43.0" style="-fx-background-color: #d8e5f0; -fx-background-radius: 4;" />
+                              <Pane prefHeight="43.0" prefWidth="43.0" style="-fx-background-color: #768591; -fx-background-radius: 4;" />
+                           </children>
+                        </HBox>
+                     </children>
+                     <padding>
+                        <Insets bottom="2.0" top="1.0" />
+                     </padding>
+                  </VBox>
+                  <Canvas fx:id="canvas" height="360.0" width="360.0" />
+               </children>
+            </StackPane>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="400.0" layoutY="12.0" prefHeight="94.0" prefWidth="188.0" style="-fx-background-color: #e1eef0;">
+         <children>
+            <VBox layoutX="81.0" layoutY="4.0" prefHeight="83.0" prefWidth="100.0" spacing="2.0" style="-fx-background-color: #ebf3f5;">
+               <children>
+                  <Label fx:id="nickLabel" prefHeight="14.0" prefWidth="80.0" text="닉네임">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="gameLabel" prefHeight="14.0" prefWidth="80.0" text="전적">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="winloseLabel" prefHeight="14.0" prefWidth="80.0" text="몇 승 몇 패">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="percentLabel" prefHeight="14.0" prefWidth="80.0" text="승률 : 100%">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Label>
+                  <HBox prefHeight="22.0" prefWidth="200.0" spacing="3.0">
+                     <children>
+                        <Button fx:id="startButton" mnemonicParsing="false" onAction="#startGame" prefHeight="16.0" prefWidth="40.0" text="시작">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="outButton" mnemonicParsing="false" onAction="#toLobby" prefHeight="19.0" prefWidth="49.0" text="나가기">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </HBox>
+               </children>
+               <padding>
+                  <Insets bottom="3.0" left="5.0" right="3.0" top="3.0" />
+               </padding>
+            </VBox>
+            <Label layoutX="6.0" layoutY="45.0" prefHeight="21.0" prefWidth="15.0" text="나">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="idLabel" alignment="CENTER" layoutX="4.0" layoutY="2.0" prefHeight="21.0" prefWidth="68.0" text="아이디">
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </Label>
+            <AnchorPane layoutX="24.0" layoutY="24.0" prefHeight="62.0" prefWidth="47.0" style="-fx-background-color: #d1d1d1;">
+               <children>
+                  <ImageView fx:id="picImageView" fitHeight="60.0" fitWidth="45.0" layoutX="1.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../image/avatar3.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="400.0" layoutY="114.0" prefHeight="94.0" prefWidth="188.0" style="-fx-background-color: #f0e6e1;">
+         <children>
+            <VBox layoutX="5.0" layoutY="4.0" prefHeight="85.0" prefWidth="100.0" spacing="2.0" style="-fx-background-color: #f5f0ed;">
+               <children>
+                  <Label fx:id="nickLabel1" prefHeight="14.0" prefWidth="80.0" text="닉네임">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="gameLabel1" prefHeight="14.0" prefWidth="80.0" text="전적">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="winloseLabel1" prefHeight="14.0" prefWidth="80.0" text="몇 승 몇 패">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="percentLabel1" prefHeight="14.0" prefWidth="80.0" text="승률 : 100%">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Label>
+                  <HBox prefHeight="22.0" prefWidth="200.0" spacing="3.0">
+                     <children>
+                        <Button fx:id="drawButton" mnemonicParsing="false" onAction="#askDraw" prefHeight="19.0" prefWidth="48.0" text="무승부">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="resignButton" mnemonicParsing="false" onAction="#sendResign" prefHeight="16.0" prefWidth="40.0" text="기권">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </HBox>
+               </children>
+               <padding>
+                  <Insets bottom="3.0" left="5.0" right="3.0" top="3.0" />
+               </padding>
+            </VBox>
+            <Label fx:id="idLabel1" alignment="CENTER" layoutX="114.0" layoutY="2.0" prefHeight="21.0" prefWidth="68.0" text="아이디">
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </Label>
+            <AnchorPane layoutX="126.0" layoutY="25.0" prefHeight="62.0" prefWidth="47.0" style="-fx-background-color: #d1d1d1;">
+               <children>
+                  <ImageView fx:id="picImageView1" fitHeight="60.0" fitWidth="45.0" layoutX="1.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../image/avatar3.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+      <TextArea fx:id="chatArea" editable="false" layoutX="400.0" layoutY="216.0" prefHeight="147.0" prefWidth="188.0">
+         <font>
+            <Font size="10.0" />
+         </font></TextArea>
+      <TextField fx:id="chatField" layoutX="400.0" layoutY="368.0" onAction="#sendMessage" prefHeight="18.0" promptText="채팅입력">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </TextField>
+      <Button layoutX="540.0" layoutY="368.0" mnemonicParsing="false" onAction="#sendMessage" prefHeight="19.0" prefWidth="48.0" text="전송">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

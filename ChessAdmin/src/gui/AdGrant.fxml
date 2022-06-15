@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="120.0" prefWidth="240.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="admin.AdGrantController">
+   <children>
+      <HBox layoutX="40.0" layoutY="51.0" prefHeight="22.0" spacing="20.0">
+         <children>
+            <RadioButton fx:id="grantButton" mnemonicParsing="false" text="권한 O">
+               <toggleGroup>
+                  <ToggleGroup fx:id="grant" />
+               </toggleGroup></RadioButton>
+            <RadioButton fx:id="revokeButton" mnemonicParsing="false" text="권한 X" toggleGroup="$grant" />
+         </children>
+      </HBox>
+      <Label fx:id="adminLabel" layoutX="124.0" layoutY="16.0" prefHeight="22.0" prefWidth="71.0" text="관리자명">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+      <Button fx:id="updateButton" layoutX="64.0" layoutY="79.0" mnemonicParsing="false" onAction="#updatePermiission" prefHeight="22.0" prefWidth="50.0" text="수정" />
+      <Button fx:id="cancelButton" layoutX="123.0" layoutY="79.0" mnemonicParsing="false" onAction="#cancel" prefHeight="22.0" prefWidth="50.0" text="취소" />
+      <Label layoutX="40.0" layoutY="23.0" text="관리자 아이디:" />
+   </children>
+</AnchorPane>
